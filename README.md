@@ -71,7 +71,7 @@ Place your project folder inside your local XAMPP htdocs directory (e.g., xampp/
 Open XAMPP Control Panel and start Apache and MySQL.
 3. **Set Up the Database:**
     * Open phpMyAdmin (`http://localhost/phpmyadmin/`).
-    * Create a new database named convenience_store.
+    * Create a new database named `convenience_store`.
     * Run the SQL schema script to generate the tables, default roles, sample products, and the default administrator account.
 4. **Default Admin Credentials:**
     * **Username:** `admin`
