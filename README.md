@@ -65,19 +65,19 @@ convenience-store/
 
 ## 🛠️ Installation & Setup Guide
 To run this project locally on your machine, follow these steps:
-1. Clone or Download the Repository:
+1. **Clone or Download the Repository:**
 Place your project folder inside your local XAMPP htdocs directory (e.g., xampp/htdocs/convenience-store).
-2. Start Local Server:
+2. **Start Local Server:**
 Open XAMPP Control Panel and start Apache and MySQL.
-3. Set Up the Database:
-Open phpMyAdmin (`http://localhost/phpmyadmin/`).
-Create a new database named convenience_store.
-Run the SQL schema script to generate the tables, default roles, sample products, and the default administrator account.
-4. Default Admin Credentials:
-Username: `admin`
-Password: `admin123`
-Launch the Application:
-5. Open your browser and navigate to:
+3. **Set Up the Database:**
+    * Open phpMyAdmin (`http://localhost/phpmyadmin/`).
+    * Create a new database named convenience_store.
+    * Run the SQL schema script to generate the tables, default roles, sample products, and the default administrator account.
+4. **Default Admin Credentials:**
+    * **Username:** `admin`
+    * **Password:** `admin123`
+5. Launch the Application:
+Open your browser and navigate to:
 `http://localhost/convenience-store/login.php`
 
 ## 📄 License
