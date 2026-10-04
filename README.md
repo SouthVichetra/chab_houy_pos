@@ -57,3 +57,24 @@ convenience-store/
 ├── delete_user.php        # Staff deletion handler
 ├── login.php              # Secure login authentication interface
 └── logout.php             # Session destruction script
+
+
+🛠️ Installation & Setup Guide
+To run this project locally on your machine, follow these steps:
+Clone or Download the Repository:
+Place your project folder inside your local XAMPP htdocs directory (e.g., xampp/htdocs/convenience-store).
+Start Local Server:
+Open XAMPP Control Panel and start Apache and MySQL.
+Set Up the Database:
+Open phpMyAdmin (http://localhost/phpmyadmin/).
+Create a new database named convenience_store.
+Run the SQL schema script to generate the tables, default roles, sample products, and the default administrator account.
+Default Admin Credentials:
+Username: admin
+Password: admin123
+Launch the Application:
+Open your browser and navigate to:
+http://localhost/convenience-store/login.php
+
+📄 License
+This project is open-source and developed for local business management. Feel free to adapt and expand it for your store needs!
